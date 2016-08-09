@@ -3,7 +3,7 @@
 Weather Underground Icons
 ======
 
-These icons were created by the Graphic Designer [Ashley Jager](http://www.ajager.com/#/weather-underground/).  She released this icons in a beautiful [Adobe Illustrator](https://dribbble.com/shots/1879422-Weather-Underground-Icons) file. This project simply breaks that AI file up into web friendly icons that can be used in your projects.
+These icons were created by the Graphic Designer [Ashley Jager](http://www.ajager.com/#/weather-underground/).  She released these icons in a beautiful [Adobe Illustrator](https://dribbble.com/shots/1879422-Weather-Underground-Icons) file. This project simply breaks that AI file up into web friendly icons that can be used in your projects.
 
 ![tstorms](dist/icons/black/png/256x256/tstorms.png "tstorms") 
 
