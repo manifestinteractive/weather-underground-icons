@@ -1,0 +1,23 @@
+{
+  "name": "weather-underground-icons",
+  "version": "1.0.0",
+  "homepage": "https://github.com/manifestinteractive/weather-underground-icons",
+  "authors": [
+    "Ashley Jager",
+    "Peter Schmalfeldt"
+  ],
+  "license": "(MIT OR GPL-3.0)",
+  "description": "Weather Underground Icons",
+  "main": "dist/wu-icons-style.css",
+  "keywords": [
+    "weather underground",
+    "weather",
+    "icons",
+    "png",
+    "svg"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manifestinteractive/weather-underground-icons.git"
+  }
+}

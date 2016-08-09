@@ -1,0 +1,277 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  transition: background-color 0.1s linear;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body.demo-white {
+  color: #fff;
+}
+
+body.demo-black {
+  color: #000;
+}
+
+body.demo-white *::-moz-selection {
+  background:  rgba(0, 0, 0, 0.5);
+}
+
+body.demo-white *::selection {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+body.demo-black *::-moz-selection {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+body.demo-black *::selection {
+  background: #FFF;
+}
+
+select {
+  font-size: 14px;
+  font-weight: 300;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  text-align: center;
+  margin: 0 6px;
+  color: #f6a71c;
+  cursor: pointer;
+}
+
+select:active, select:focus {
+  outline: none;
+}
+
+.author-info {
+  margin: 20px 0;
+  font-weight: 300;
+}
+.author-info a {
+  text-decoration: none;
+}
+
+body.demo-white .author-info a {
+  color: rgba(255, 255, 255, 0.5);
+}
+body.demo-black .author-info a {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+body.demo-white .author-info a:hover {
+  color: #FFF;
+}
+body.demo-black .author-info a:hover {
+  color: #000;
+}
+
+.demo {
+  transition: background-color 0.1s linear;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.demo-white {
+  background: #262a33;
+}
+
+.demo-black {
+  background: #f3f7f9;
+}
+
+.demo i {
+  border-radius: 10%;
+  transition: background-color 0.25s linear;
+}
+
+.demo-white i:hover, .demo-white i.active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.demo-black i:hover, .demo-black i.active {
+  background-color: #FFF;
+}
+
+.demo-16 {
+  width: 96px;
+}
+
+.demo-32 {
+  width: 176px;
+}
+
+.demo-64 {
+  width: 336px;
+}
+
+.demo-128 {
+  width: 656px;
+}
+
+.demo-256 {
+  width: 1036px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-weight: 300;
+  margin-bottom: 0;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.header div.options {
+  display: block;
+  font-weight: 300;
+}
+
+body.demo-white .header div.options span {
+  margin-right: 10px;
+  color: rgba(255, 255, 255, 0.25);
+}
+body.demo-black .header div.options span {
+  margin-right: 10px;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.header #iconSource {
+  font-weight: 300;
+  margin-top: 20px;
+  font-size: 30px;
+  color: #f6a71c;
+  white-space: pre;
+}
+
+.header #iconSource.hljs {
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 28px 0;
+}
+
+.hljs-string {
+  color: #f6a71c;
+}
+.github-corner svg {
+  position: absolute;
+  top: 0;
+  border: 0;
+  right: 0;
+}
+body.demo-black .github-corner svg {
+  fill: #262a33;
+  color: #f3f7f9;
+}
+body.demo-white .github-corner svg {
+  fill: #f3f7f9;
+  color: #262a33;
+}
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave {
+  0%, 100% {
+    transform: rotate(0)
+  }
+  20%, 60% {
+    transform: rotate(-25deg)
+  }
+  40%, 80% {
+    transform: rotate(10deg)
+  }
+}
+@media (max-width: 375px) {
+  .header {
+    margin-top: 50px;
+  }
+  .header h1 {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .demo-64 {
+    width: 270px;
+  }
+  .demo-128 {
+    width: 260px;
+  }
+  .demo-256 {
+    width: 260px;
+  }
+}
+@media (max-width: 320px) {
+  .header h1 {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out
+  }
+}
