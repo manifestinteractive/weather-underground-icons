@@ -19,6 +19,8 @@ Before you can use the Example, you will need to update the `API_KEY` variable i
 
 You can get your API Key from [Weather Underground](https://www.wunderground.com/weather/api/).
 
+![example-small](https://cloud.githubusercontent.com/assets/508411/20203888/04d9e57c-a799-11e6-9879-b93dbc834bb5.gif)
+
 Usage Instructions
 ---
 
