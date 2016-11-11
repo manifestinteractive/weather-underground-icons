@@ -12,14 +12,10 @@ Demo Website
 
 [http://peter.build/weather-underground-icons/](http://peter.build/weather-underground-icons/)
 
-Using the Example
+Example Application
 ---
 
-Before you can use the [Example](https://github.com/manifestinteractive/weather-underground-icons/tree/master/example), you will need to update the `API_KEY` variable in the `example/js/site.js` file.
-
-You can get your API Key from [Weather Underground](https://www.wunderground.com/weather/api/).
-
-![example-small](https://cloud.githubusercontent.com/assets/508411/20203888/04d9e57c-a799-11e6-9879-b93dbc834bb5.gif)
+Here is an [Example Application](https://peter.build/wu/) that uses these icons.  You can access the [Github Repo](https://github.com/manifestinteractive/weather-underground-app) for source code.
 
 Usage Instructions
 ---
