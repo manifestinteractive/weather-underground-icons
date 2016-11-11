@@ -26,7 +26,7 @@
    */
   function getWeather (zipcode) {
     $('.weather-input .error-message').fadeOut();
-    
+
     fetchingWeather = true;
 
     if (!/[0-9]{5}/.test(zipcode)) {

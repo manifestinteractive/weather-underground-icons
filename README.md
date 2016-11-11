@@ -12,6 +12,13 @@ Demo Website
 
 [http://peter.build/weather-underground-icons/](http://peter.build/weather-underground-icons/)
 
+Using the Example
+---
+
+Before you can use the Example, you will need to update the `API_KEY` variable in the `example/js/site.js` file.
+
+You can get your API Key from [Weather Underground](https://www.wunderground.com/weather/api/).
+
 Usage Instructions
 ---
 
