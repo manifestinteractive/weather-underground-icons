@@ -48,7 +48,7 @@
         if (data.response.error) {
           showError(data.response.error.description);
         } else {
-          buildForcast(zipcode, data.forecast.simpleforecast.forecastday);
+          buildForecast(zipcode, data.forecast.simpleforecast.forecastday);
         }
       }
     });
@@ -59,7 +59,7 @@
    * @param zipcode
    * @param forecast
    */
-  function buildForcast (zipcode, forecast) {
+  function buildForecast (zipcode, forecast) {
     for (var i = 0; i < forecast.length; i++) {
       var date = '<div class="weather-date">' + forecast[i].date.monthname_short + ' ' + forecast[i].date.day + '</div>';
       var image = weatherIcon(forecast[i].icon);
