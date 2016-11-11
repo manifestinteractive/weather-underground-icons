@@ -5,7 +5,7 @@
    * @link https://www.wunderground.com/weather/api/
    * @type {string}
    */
-  var API_KEY = 'bbe9de959f6bc908';
+  var API_KEY = '';
 
   /**
    * Weather Unit
@@ -25,6 +25,8 @@
    * @param zipcode
    */
   function getWeather (zipcode) {
+    $('.weather-input .error-message').fadeOut();
+    
     fetchingWeather = true;
 
     if (!/[0-9]{5}/.test(zipcode)) {
@@ -120,7 +122,6 @@
     });
 
     elmZipcode.on('keyup', function() {
-      $('.weather-input .error-message').fadeOut();
       var zipcode = $(this).val();
       if (!fetchingWeather && zipcode && zipcode.length === 5) {
         getWeather(zipcode);
