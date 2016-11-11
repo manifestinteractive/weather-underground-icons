@@ -15,7 +15,7 @@ Demo Website
 Using the Example
 ---
 
-Before you can use the Example, you will need to update the `API_KEY` variable in the `example/js/site.js` file.
+Before you can use the [Example](https://github.com/manifestinteractive/weather-underground-icons/tree/master/example), you will need to update the `API_KEY` variable in the `example/js/site.js` file.
 
 You can get your API Key from [Weather Underground](https://www.wunderground.com/weather/api/).
 
