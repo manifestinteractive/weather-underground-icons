@@ -3,6 +3,7 @@ $(function () {
   var iconType = 'svg';
   var iconColor = 'white';
   var iconSize = '64';
+  var iconTime = 'day';
   var iconFocus = ' ';
   var timeout = null;
 
@@ -17,13 +18,13 @@ $(function () {
 
     switch (true) {
       case (width >= 320 && width < 960):
-        iconSize = '64';
+        iconSize = '32';
         break;
       case (width >= 960 && width < 1200):
-        iconSize = '128';
+        iconSize = '64';
         break;
       case (width >= 1200):
-        iconSize = '256';
+        iconSize = '128';
         break;
     }
 
@@ -56,12 +57,26 @@ $(function () {
 
   $('#iconColor').change(function () {
     iconColor = $('option:selected', this).val();
-    $('i.wu').removeClass('wu-white wu-black').addClass('wu-' + iconColor);
-    $('.demo').removeClass('demo-white demo-black').addClass('demo-' + iconColor);
-    $('body').removeClass('demo-white demo-black').addClass('demo-' + iconColor);
+    $('i.wu').removeClass('wu-white wu-black wu-solid-white wu-solid-black').addClass('wu-' + iconColor);
+    $('.demo').removeClass('demo-white demo-black demo-solid-white demo-solid-black').addClass('demo-' + iconColor);
+    $('body').removeClass('demo-white demo-black demo-solid-white demo-solid-black').addClass('demo-' + iconColor);
 
     if ($('i.active').length > 0) {
-      iconFocus = '<i class="wu wu-' + iconSize + ' wu-' + iconColor + ' wu-' + $('i.active').data('name') + '"></i>';
+      iconFocus = '<i class="wu wu-' + iconSize + ' wu-' + iconColor + ' wu-' + iconTime + ' wu-' + $('i.active').data('name') + '"></i>';
+
+      $('#iconSource').text(iconFocus);
+      $('#iconSource').each(function (i, block) {
+        hljs.highlightBlock(block);
+      });
+    }
+  });
+
+  $('#iconTime').change(function () {
+    iconTime = $('option:selected', this).val();
+    $('i.wu').removeClass('wu-night wu-day').addClass('wu-' + iconTime);
+
+    if ($('i.active').length > 0) {
+      iconFocus = '<i class="wu wu-' + iconSize + ' wu-' + iconColor + ' wu-' + iconTime + ' wu-' + $('i.active').data('name') + '"></i>';
 
       $('#iconSource').text(iconFocus);
       $('#iconSource').each(function (i, block) {
@@ -76,7 +91,7 @@ $(function () {
     $('.demo').removeClass('demo-16 demo-32 demo-64 demo-128 demo-256').addClass('demo-' + iconSize);
 
     if ($('i.active').length > 0) {
-      iconFocus = '<i class="wu wu-' + iconSize + ' wu-' + iconColor + ' wu-' + $('i.active').data('name') + '"></i>';
+      iconFocus = '<i class="wu wu-' + iconSize + ' wu-' + iconColor + ' wu-' + iconTime + ' wu-' + $('i.active').data('name') + '"></i>';
 
       $('#iconSource').text(iconFocus);
       $('#iconSource').each(function (i, block) {
@@ -106,7 +121,7 @@ $(function () {
     $(this).toggleClass('active');
     $('i.active').not(this).removeClass('active');
 
-    iconFocus = (iconFocus == selected) ? ' ' : '<i class="wu wu-' + iconSize + ' wu-' + iconColor + ' wu-' + selected + '"></i>';
+    iconFocus = (iconFocus == selected) ? ' ' : '<i class="wu wu-' + iconSize + ' wu-' + iconColor + ' wu-' + iconTime + ' wu-' + selected + '"></i>';
 
     if ($('i.active').length > 0) {
       $('#iconSource').text(iconFocus);

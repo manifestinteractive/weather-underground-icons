@@ -5,7 +5,7 @@ Weather Underground Icons
 
 These icons were created by the Graphic Designer [Ashley Jager](http://www.ajager.com/#/weather-underground/).  She released these icons in a beautiful [Adobe Illustrator](https://dribbble.com/shots/1879422-Weather-Underground-Icons) file. This project simply breaks that AI file up into web friendly icons that can be used in your projects.
 
-![tstorms](dist/icons/black/png/256x256/tstorms.png "tstorms") 
+![tstorms](dist/icons/black/png/256x256/tstorms.png "tstorms")
 
 Demo Website
 ---
@@ -58,6 +58,24 @@ All CSS Icons will default to using SVG files.  However, you can use PNG sprites
 
 ![tstorms](dist/icons/white/png/32x32/tstorms.png "tstorms")
 
+### Icon Class Day & Night:
+
+* Default is to use Day Icons
+
+```html
+<i class="wu wu-black wu-32 wu-clear"></i>
+```
+
+![clear](dist/icons/black/png/32x32/clear.png "clear")
+
+* `wu-night` to use Night Icons
+
+```html
+<i class="wu wu-white wu-32 wu-clear wu-night"></i>
+```
+
+![clear](dist/icons/white/png/32x32/nt_clear.png "clear")
+
 ### Icon Class Sizes:
 
 * `wu-16` 16x16px icons
@@ -100,7 +118,7 @@ All CSS Icons will default to using SVG files.  However, you can use PNG sprites
 
 ![flurries](dist/icons/black/png/256x256/flurries.png "flurries")
 
-Icon Key
+Day Icon Key
 ---
 
 Here are the `icon` options for each weather option:
@@ -128,9 +146,55 @@ ICON | KEY | DESCRIPTION
 ![tstorms](dist/icons/black/png/32x32/tstorms.png "tstorms") | tstorms | Thunderstorms
 ![unknown](dist/icons/black/png/32x32/unknown.png "unknown") | unknown | Unknown
 
-Icon Preview
+
+Night Icon Key
 ---
 
-![White Icons](dist/icons/white/icon-preview.png "White Icons")
+Here are the `icon` options for each weather option:
 
-![Black Icons](dist/icons/black/icon-preview.png "Black Icons")
+ICON | KEY | DESCRIPTION
+---- | --- | -----------
+![chanceflurries](dist/icons/black/png/32x32/nt_chanceflurries.png "chanceflurries") | chanceflurries | Chance of Flurries
+![chancerain](dist/icons/black/png/32x32/nt_chancerain.png "chancerain") | chancerain | Chance of Rain
+![chancesleet](dist/icons/black/png/32x32/nt_chancesleet.png "chancesleet") | chancesleet | Chance Freezing Rain
+![chancesnow](dist/icons/black/png/32x32/nt_chancesnow.png "chancesnow") | chancesnow | Chance of Snow
+![chancetstorms](dist/icons/black/png/32x32/nt_chancetstorms.png "chancetstorms") | chancetstorms | Chance of Thunderstorms
+![clear](dist/icons/black/png/32x32/nt_clear.png "clear") | clear | Clear
+![cloudy](dist/icons/black/png/32x32/nt_cloudy.png "cloudy") | cloudy | Cloudy
+![flurries](dist/icons/black/png/32x32/nt_flurries.png "flurries") | flurries | Flurries
+![fog](dist/icons/black/png/32x32/nt_fog.png "fog") | fog | Fog
+![hazy](dist/icons/black/png/32x32/nt_hazy.png "hazy") | hazy | Haze
+![mostlycloudy](dist/icons/black/png/32x32/nt_mostlycloudy.png "mostlycloudy") | mostlycloudy | Mostly Cloudy
+![mostlysunny](dist/icons/black/png/32x32/nt_mostlysunny.png "mostlysunny") | mostlysunny | Mostly Sunny
+![partlycloudy](dist/icons/black/png/32x32/nt_partlycloudy.png "partlycloudy") | partlycloudy | Partly Cloudy
+![partlysunny](dist/icons/black/png/32x32/nt_partlysunny.png "partlysunny") | partlysunny | Partly Sunny
+![rain](dist/icons/black/png/32x32/nt_rain.png "rain") | rain | Rain
+![sleet](dist/icons/black/png/32x32/nt_sleet.png "sleet") | sleet | Freezing Rain
+![snow](dist/icons/black/png/32x32/nt_snow.png "snow") | snow | Snow
+![sunny](dist/icons/black/png/32x32/nt_sunny.png "sunny") | sunny | Sunny
+![tstorms](dist/icons/black/png/32x32/nt_tstorms.png "tstorms") | tstorms | Thunderstorms
+![unknown](dist/icons/black/png/32x32/nt_unknown.png "unknown") | unknown | Unknown
+
+
+Day Icon Preview
+---
+
+![White Day Icons](dist/icons/white/icon-preview.png "White Icons")
+
+![Black Day Icons](dist/icons/black/icon-preview.png "Black Icons")
+
+![White Day Icons](dist/icons/solid-white/icon-preview.png "White Icons")
+
+![Black Day Icons](dist/icons/solid-black/icon-preview.png "Black Icons")
+
+
+Night Icon Preview
+---
+
+![White Night Icons](dist/icons/white/icon-preview-nt.png "White Icons")
+
+![Black Night Icons](dist/icons/black/icon-preview-nt.png "Black Icons")
+
+![White Day Icons](dist/icons/solid-white/icon-preview-nt.png "White Icons")
+
+![Black Day Icons](dist/icons/solid-black/icon-preview-nt.png "Black Icons")

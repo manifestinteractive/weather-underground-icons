@@ -55,27 +55,27 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-body.demo-white {
+body.demo-white, body.demo-solid-white {
   color: #fff;
 }
 
-body.demo-black {
+body.demo-black, body.demo-solid-black {
   color: #000;
 }
 
-body.demo-white *::-moz-selection {
+body.demo-white *::-moz-selection, body.demo-solid-white *::-moz-selection {
   background:  rgba(0, 0, 0, 0.5);
 }
 
-body.demo-white *::selection {
+body.demo-white *::selection, body.demo-soli-white *::selection {
   background: rgba(0, 0, 0, 0.5);
 }
 
-body.demo-black *::-moz-selection {
+body.demo-black *::-moz-selection, body.demo-solid-black *::-moz-selection {
   background: rgba(0, 0, 0, 0.05);
 }
 
-body.demo-black *::selection {
+body.demo-black *::selection, body.demo-solid-black *::selection {
   background: #FFF;
 }
 
@@ -104,17 +104,17 @@ select:active, select:focus {
   text-decoration: none;
 }
 
-body.demo-white .author-info a {
+body.demo-white .author-info a, body.demo-solid-white .author-info a {
   color: rgba(255, 255, 255, 0.5);
 }
-body.demo-black .author-info a {
+body.demo-black .author-info a, body.demo-solid-black .author-info a {
   color: rgba(0, 0, 0, 0.5);
 }
 
-body.demo-white .author-info a:hover {
+body.demo-white .author-info a:hover, body.demo-solid-white .author-info a:hover {
   color: #FFF;
 }
-body.demo-black .author-info a:hover {
+body.demo-black .author-info a:hover, body.demo-solid-black .author-info a:hover {
   color: #000;
 }
 
@@ -124,11 +124,11 @@ body.demo-black .author-info a:hover {
   margin-bottom: 40px;
 }
 
-.demo-white {
+.demo-white, .demo-solid-white {
   background: #262a33;
 }
 
-.demo-black {
+.demo-black, .demo-solid-black {
   background: #f3f7f9;
 }
 
@@ -137,11 +137,11 @@ body.demo-black .author-info a:hover {
   transition: background-color 0.25s linear;
 }
 
-.demo-white i:hover, .demo-white i.active {
+.demo-white i:hover, .demo-white i.active, .demo-solid-white i:hover, .demo-solid-white i.active {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.demo-black i:hover, .demo-black i.active {
+.demo-black i:hover, .demo-black i.active, .demo-solid-black i:hover, .demo-solid-black i.active {
   background-color: #FFF;
 }
 
@@ -182,11 +182,11 @@ body.demo-black .author-info a:hover {
   font-weight: 300;
 }
 
-body.demo-white .header div.options span {
+body.demo-white .header div.options span, body.demo-solid-white .header div.options span {
   margin-right: 10px;
   color: rgba(255, 255, 255, 0.25);
 }
-body.demo-black .header div.options span {
+body.demo-black .header div.options span, body.demo-solid-black .header div.options span {
   margin-right: 10px;
   color: rgba(0, 0, 0, 0.25);
 }
@@ -217,11 +217,11 @@ body.demo-black .header div.options span {
   border: 0;
   right: 0;
 }
-body.demo-black .github-corner svg {
+body.demo-black .github-corner svg, body.demo-solid-black .github-corner svg {
   fill: #262a33;
   color: #f3f7f9;
 }
-body.demo-white .github-corner svg {
+body.demo-white .github-corner svg, body.demo-solid-white .github-corner svg {
   fill: #f3f7f9;
   color: #262a33;
 }
