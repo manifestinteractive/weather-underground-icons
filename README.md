@@ -1,5 +1,3 @@
-![Weather Underground](https://icons.wxug.com/logos/JPG/wundergroundLogo_4c_horz.jpg "Weather Underground")
-
 [![Buy Me Coffee](https://peterschmalfeldt.com/buy-me-coffee.png)](https://www.paypal.me/manifestinteractive)
 
 Weather Underground Icons
