@@ -123,28 +123,28 @@ Day Icon Key
 
 Here are the `icon` options for each weather option:
 
-ICON | KEY | DESCRIPTION
----- | --- | -----------
-![chanceflurries](dist/icons/black/png/32x32/chanceflurries.png "chanceflurries") | chanceflurries | Chance of Flurries
-![chancerain](dist/icons/black/png/32x32/chancerain.png "chancerain") | chancerain | Chance of Rain
-![chancesleet](dist/icons/black/png/32x32/chancesleet.png "chancesleet") | chancesleet | Chance Freezing Rain
-![chancesnow](dist/icons/black/png/32x32/chancesnow.png "chancesnow") | chancesnow | Chance of Snow
-![chancetstorms](dist/icons/black/png/32x32/chancetstorms.png "chancetstorms") | chancetstorms | Chance of Thunderstorms
-![clear](dist/icons/black/png/32x32/clear.png "clear") | clear | Clear
-![cloudy](dist/icons/black/png/32x32/cloudy.png "cloudy") | cloudy | Cloudy
-![flurries](dist/icons/black/png/32x32/flurries.png "flurries") | flurries | Flurries
-![fog](dist/icons/black/png/32x32/fog.png "fog") | fog | Fog
-![hazy](dist/icons/black/png/32x32/hazy.png "hazy") | hazy | Haze
-![mostlycloudy](dist/icons/black/png/32x32/mostlycloudy.png "mostlycloudy") | mostlycloudy | Mostly Cloudy
-![mostlysunny](dist/icons/black/png/32x32/mostlysunny.png "mostlysunny") | mostlysunny | Mostly Sunny
-![partlycloudy](dist/icons/black/png/32x32/partlycloudy.png "partlycloudy") | partlycloudy | Partly Cloudy
-![partlysunny](dist/icons/black/png/32x32/partlysunny.png "partlysunny") | partlysunny | Partly Sunny
-![rain](dist/icons/black/png/32x32/rain.png "rain") | rain | Rain
-![sleet](dist/icons/black/png/32x32/sleet.png "sleet") | sleet | Freezing Rain
-![snow](dist/icons/black/png/32x32/snow.png "snow") | snow | Snow
-![sunny](dist/icons/black/png/32x32/sunny.png "sunny") | sunny | Sunny
-![tstorms](dist/icons/black/png/32x32/tstorms.png "tstorms") | tstorms | Thunderstorms
-![unknown](dist/icons/black/png/32x32/unknown.png "unknown") | unknown | Unknown
+ICON | KEY | DESCRIPTION | [ICON CODE][1] |
+---- | --- | ----------- | -------------- | 
+![chanceflurries](dist/icons/black/png/32x32/chanceflurries.png "chanceflurries") | chanceflurries | Chance of Flurries | |
+![chancerain](dist/icons/black/png/32x32/chancerain.png "chancerain") | chancerain | Chance of Rain | |
+![chancesleet](dist/icons/black/png/32x32/chancesleet.png "chancesleet") | chancesleet | Chance Freezing Rain | |
+![chancesnow](dist/icons/black/png/32x32/chancesnow.png "chancesnow") | chancesnow | Chance of Snow | |
+![chancetstorms](dist/icons/black/png/32x32/chancetstorms.png "chancetstorms") | chancetstorms | Chance of Thunderstorms | |
+![clear](dist/icons/black/png/32x32/clear.png "clear") | clear | Clear | 31 |
+![cloudy](dist/icons/black/png/32x32/cloudy.png "cloudy") | cloudy | Cloudy | 26 |
+![flurries](dist/icons/black/png/32x32/flurries.png "flurries") | flurries | Flurries | 13 |
+![fog](dist/icons/black/png/32x32/fog.png "fog") | fog | Fog | 20 |
+![hazy](dist/icons/black/png/32x32/hazy.png "hazy") | hazy | Haze | 21 |
+![mostlycloudy](dist/icons/black/png/32x32/mostlycloudy.png "mostlycloudy") | mostlycloudy | Mostly Cloudy | 28 |
+![mostlysunny](dist/icons/black/png/32x32/mostlysunny.png "mostlysunny") | mostlysunny | Mostly Sunny | 34 |
+![partlycloudy](dist/icons/black/png/32x32/partlycloudy.png "partlycloudy") | partlycloudy | Partly Cloudy | 30 |
+![partlysunny](dist/icons/black/png/32x32/partlysunny.png "partlysunny") | partlysunny | Partly Sunny |  |
+![rain](dist/icons/black/png/32x32/rain.png "rain") | rain | Rain | 12 |
+![sleet](dist/icons/black/png/32x32/sleet.png "sleet") | sleet | Freezing Rain | 18 |
+![snow](dist/icons/black/png/32x32/snow.png "snow") | snow | Snow | 16 |
+![sunny](dist/icons/black/png/32x32/sunny.png "sunny") | sunny | Sunny | 32,36 |
+![tstorms](dist/icons/black/png/32x32/tstorms.png "tstorms") | tstorms | Thunderstorms | 3,4,38 |
+![unknown](dist/icons/black/png/32x32/unknown.png "unknown") | unknown | Unknown | 44 |
 
 
 Night Icon Key
@@ -152,28 +152,28 @@ Night Icon Key
 
 Here are the `icon` options for each weather option:
 
-ICON | KEY | DESCRIPTION
----- | --- | -----------
+ICON | KEY | DESCRIPTION | [ICON CODE][1] |
+---- | --- | ----------- | -------------- | 
 ![chanceflurries](dist/icons/black/png/32x32/nt_chanceflurries.png "chanceflurries") | chanceflurries | Chance of Flurries
 ![chancerain](dist/icons/black/png/32x32/nt_chancerain.png "chancerain") | chancerain | Chance of Rain
 ![chancesleet](dist/icons/black/png/32x32/nt_chancesleet.png "chancesleet") | chancesleet | Chance Freezing Rain
 ![chancesnow](dist/icons/black/png/32x32/nt_chancesnow.png "chancesnow") | chancesnow | Chance of Snow
 ![chancetstorms](dist/icons/black/png/32x32/nt_chancetstorms.png "chancetstorms") | chancetstorms | Chance of Thunderstorms
-![clear](dist/icons/black/png/32x32/nt_clear.png "clear") | clear | Clear
-![cloudy](dist/icons/black/png/32x32/nt_cloudy.png "cloudy") | cloudy | Cloudy
-![flurries](dist/icons/black/png/32x32/nt_flurries.png "flurries") | flurries | Flurries
-![fog](dist/icons/black/png/32x32/nt_fog.png "fog") | fog | Fog
-![hazy](dist/icons/black/png/32x32/nt_hazy.png "hazy") | hazy | Haze
-![mostlycloudy](dist/icons/black/png/32x32/nt_mostlycloudy.png "mostlycloudy") | mostlycloudy | Mostly Cloudy
-![mostlysunny](dist/icons/black/png/32x32/nt_mostlysunny.png "mostlysunny") | mostlysunny | Mostly Sunny
-![partlycloudy](dist/icons/black/png/32x32/nt_partlycloudy.png "partlycloudy") | partlycloudy | Partly Cloudy
-![partlysunny](dist/icons/black/png/32x32/nt_partlysunny.png "partlysunny") | partlysunny | Partly Sunny
-![rain](dist/icons/black/png/32x32/nt_rain.png "rain") | rain | Rain
-![sleet](dist/icons/black/png/32x32/nt_sleet.png "sleet") | sleet | Freezing Rain
-![snow](dist/icons/black/png/32x32/nt_snow.png "snow") | snow | Snow
-![sunny](dist/icons/black/png/32x32/nt_sunny.png "sunny") | sunny | Sunny
-![tstorms](dist/icons/black/png/32x32/nt_tstorms.png "tstorms") | tstorms | Thunderstorms
-![unknown](dist/icons/black/png/32x32/nt_unknown.png "unknown") | unknown | Unknown
+![clear](dist/icons/black/png/32x32/nt_clear.png "clear") | clear | Clear | 31 |
+![cloudy](dist/icons/black/png/32x32/nt_cloudy.png "cloudy") | cloudy | Cloudy | 26 |
+![flurries](dist/icons/black/png/32x32/nt_flurries.png "flurries") | flurries | Flurries | 13 |
+![fog](dist/icons/black/png/32x32/nt_fog.png "fog") | fog | Fog | 20 |
+![hazy](dist/icons/black/png/32x32/nt_hazy.png "hazy") | hazy | Haze | 21 |
+![mostlycloudy](dist/icons/black/png/32x32/nt_mostlycloudy.png "mostlycloudy") | mostlycloudy | Mostly Cloudy | 27 |
+![mostlysunny](dist/icons/black/png/32x32/nt_mostlysunny.png "mostlysunny") | mostlysunny | Mostly Clear | 33 |
+![partlycloudy](dist/icons/black/png/32x32/nt_partlycloudy.png "partlycloudy") | partlycloudy | Partly Cloudy | 29 |
+![partlysunny](dist/icons/black/png/32x32/nt_partlysunny.png "partlysunny") | partlysunny | Partly Clear | 27 |
+![rain](dist/icons/black/png/32x32/nt_rain.png "rain") | rain | Rain | 12 |
+![sleet](dist/icons/black/png/32x32/nt_sleet.png "sleet") | sleet | Freezing Rain | 18 |
+![snow](dist/icons/black/png/32x32/nt_snow.png "snow") | snow | Snow | 16 |
+![sunny](dist/icons/black/png/32x32/nt_sunny.png "sunny") | sunny | Sunny | 31 |
+![tstorms](dist/icons/black/png/32x32/nt_tstorms.png "tstorms") | tstorms | Thunderstorms | 47 |
+![unknown](dist/icons/black/png/32x32/nt_unknown.png "unknown") | unknown | Unknown | 44 |
 
 
 Day Icon Preview
@@ -198,3 +198,5 @@ Night Icon Preview
 ![White Day Icons](dist/icons/solid-white/icon-preview-nt.png "White Icons")
 
 ![Black Day Icons](dist/icons/solid-black/icon-preview-nt.png "Black Icons")
+
+[1]: https://docs.google.com/document/d/1qpc4QN3YDpGDGGNYVINh7tfeulcZ4fxPSC5f4KzpR_U/edit
